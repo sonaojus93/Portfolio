@@ -19,7 +19,7 @@ const Headermain = () => {
         <div className="d-flex align-items-center justify-content-between">
           <Link className="navbar-brand nav_ac" to="/">
             <img
-              src={process.env.PUBLIC_URL + '/favicon-64x64.ico'}
+              src={process.env.PUBLIC_URL + '/favicon-64X64.ico'}
               alt="Logo"
               style={{ width: '70px', height: '70px', objectFit: 'cover' }}
             />
