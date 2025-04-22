@@ -84,6 +84,23 @@ const services = [{
 },
 ];
 
+const datablog = [{
+    img: "https://miro.medium.com/v2/resize:fit:4800/format:webp/0*zlkAwEZeqpXGiotZ",
+    description: "Best Architectural Patterns in React: Building Scalable Frontends Like a Pro.",
+    link: "https://medium.com/@sonaojus.job/best-architectural-patterns-in-react-building-scalable-frontends-like-a-pro-7ad919d115d7",
+},
+{
+    img: "https://miro.medium.com/v2/resize:fit:4800/format:webp/0*OEfREa7FBw6HxVV-",
+    description: "The Future of Web UIs is Native-like: What We Can Learn from Mobile Apps.",
+    link: "https://medium.com/@sonaojus.job/the-future-of-web-uis-is-native-like-what-we-can-learn-from-mobile-apps-aab43ebf9e8c",
+},
+{
+    img: "https://miro.medium.com/v2/resize:fit:4800/format:webp/0*QH0ahx54kfvqaF4_",
+    description: "Why You Should Rethink API Design with tRPC and Zod.",
+    link: "https://medium.com/@sonaojus.job/why-you-should-rethink-api-design-with-trpc-and-zod-7c915633708c",
+}
+];
+
 const dataportfolio = [{
     img: "https://picsum.photos/400/?grayscale",
     description: "The wisdom of life consists in the elimination of non-essentials.",
@@ -161,14 +178,15 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/sonaojus93",
-    facebook: "https://www.facebook.com/sona.ojus",
     linkedin: "https://www.linkedin.com/in/sona-ojus/",
     twitter: "https://x.com/ojus_sona",
+    medium: "https://medium.com/@sonaojus.job",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
+    datablog,
     worktimeline,
     skills,
     services,
