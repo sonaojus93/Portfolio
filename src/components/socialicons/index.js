@@ -38,7 +38,7 @@ export const Socialicons = (params) => {
           return (
             <li key={platform}>
               <a href={url}>
-                <IconComponent />
+                <IconComponent size={50} />
               </a>
             </li>
           );

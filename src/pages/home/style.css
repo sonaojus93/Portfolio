@@ -40,7 +40,7 @@ section {
 @media (max-width:991.98px) {
     .intro_sec {
         display: block;
-        height: auto!important;
+        height: auto !important;
     }
 }
 
@@ -50,6 +50,7 @@ section {
 }
 
 @media (max-width:991.98px) {
+
     .intro_sec .text,
     .intro_sec .h_bg-image {
         width: 100%;
@@ -70,7 +71,7 @@ section {
 }
 
 .intro_sec .intro .feature .wrap-icon {
-    background: 0 0!important;
+    background: 0 0 !important;
     width: auto;
     height: auto;
     margin-bottom: 0;
@@ -102,7 +103,7 @@ section {
     padding: 4px 19px;
     color: var(--secondary-color);
     position: relative;
-    border: var(--secondary-color) 2px solid;
+    /* border: var(--secondary-color) 2px solid; */
     overflow: hidden;
     transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
     cursor: pointer;
@@ -161,7 +162,7 @@ section {
 .ac_btn .three {
     background-color: var(--secondary-color);
     z-index: -2;
-    transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.2s cubic-bezier(0.55, 0, 0.1, 1);
     z-index: -3;
 }
 
@@ -198,6 +199,7 @@ section {
         min-height: 75vh;
         margin-bottom: 30px;
     }
+
     .intro_sec .h_bg-image .block {
         top: unset;
         bottom: 0;

@@ -102,12 +102,10 @@ const datablog = [{
 ];
 
 const dataportfolio = [{
-    img: "https://picsum.photos/400/?grayscale",
     description: "Mini DRM: Video Streaming Platform",
     link: "https://github.com/sonaojus93/MiniDRM",
 },
 {
-    img: "https://picsum.photos/400/?grayscale",
     description: "AES Encryption in Python",
     link: "https://github.com/sonaojus93/AES-Basic-Encryption-in-Python",
 },
